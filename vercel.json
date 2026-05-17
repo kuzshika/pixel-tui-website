@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/example/anco/:path*",
+      "destination": "https://salon-consultation-helper-v1.vercel.app/:path*"
+    },
+    {
+      "source": "/example/anco",
+      "destination": "https://salon-consultation-helper-v1.vercel.app/"
+    }
+  ]
+}
